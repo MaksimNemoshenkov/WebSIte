@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style-slide.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+    
+</head>
+<body>
+    <div class="userinfo">
+        <div class="userinfo__photo">
+        <img src="images/malvina.png" alt="Аватар не загружен" title="Malvina">
+        </div>
+        <div class="userinfo__main">
+            <div class="userinfo__title">
+                <div class="userinfo__nickname">
+                    <h1>Мальвина</h1>
+                </div>
+                <div class="userinfo__prof">
+                    <h2>CSS, Html, Javascript master</h2>
+                </div>
+            </div>
+            <div class="userinfo__social-links">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="fa fa-facebook"></span>
+                            <span class="hide">
+                            facebook 
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="fa fa-twitter"></span>
+                            <span class="hide">
+                            twitter 
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="fa fa-vk"></span>
+                            <span class="hide">
+                            vk 
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="userinfo__contacts">
+            <div class="userinfo__contacts__row">
+                <span class="phone-number">+38 *** ** ** ***</span>
+            </div>
+            <div class="userinfo__contacts__row">
+                <a href="mainto:text@text.test">
+                text@text.test
+                </a>
+            </div>
+        </div>
+</div>
+
+<ul class="cb-slideshow">
+<li><span>Image 01</span></li>
+<li><span>Image 02</span></li>
+<li><span>Image 03</span></li>
+<li><span>Image 04</span></li>
+<li><span>Image 05</span></li>
+<li><span>Image 06</span></li>          
+</ul>
+
+<div class="form">
+<a href="#form-popup"> Я Вам зателефоную </a>
+<form class="form" action="action.php" method="GET">
+  <div class="form__input" >
+    <input type="text" name="name">
+  </div>
+  <div class="form__input" >
+    <input type="text" name="phone">
+  </div>
+  <button class="button"> Подзвоніть мені </button>
+</form>
+</div>
+
+<script type="text/javascript">
+  $('.fancybox').fancybox();
+</script>
+</body>
+</html>
